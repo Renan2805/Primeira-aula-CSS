@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 500px;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: solid 5px #022419;
+    padding: 10px;
+
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(173, 173, 173, 1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(173, 173, 173, 1);
+    box-shadow: 5px 5px 10px 0px rgba(173, 173, 173, 1);
+  }
+
+  .box-image {
+    height: 100px;
+    width: 100px;
+    background-color: darkgray;
+    border-radius: 50%;
+    border: 1px solid #03323a;
+  }
+
+  #titulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+  }
